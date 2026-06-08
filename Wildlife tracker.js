@@ -24,3 +24,7 @@ const addHabitat = (animal, habitat) => {
 };
 
 console.log(addHabitat(tiger,"Rainforest"));
+const updateAge = (animal, newAge) => {
+  return animal.age = newAge;
+}
+console.log(updateAge(elephant,12));

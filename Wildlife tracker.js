@@ -17,3 +17,10 @@ const getAge = (animal) => {
   return animal.age;
 };
 console.log(getAge(tiger));
+
+const addHabitat = (animal, habitat) => {
+  animal.habitat = habitat;
+  return animal;
+};
+
+console.log(addHabitat(tiger,"Rainforest"));

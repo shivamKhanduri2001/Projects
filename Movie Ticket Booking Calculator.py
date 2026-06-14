@@ -19,7 +19,7 @@ else :
 print('Discount:', discount)
 extra_charges = 0
 
-if is_weekend:
+if is_weekend or show_time == 'Evening'::
     extra_charges = 2
     print('Extra charges will be applied')
 else:

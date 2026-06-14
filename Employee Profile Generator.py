@@ -20,3 +20,7 @@ print(employee_card)
 employee_code = 'DEV-2026-JD-001';
 department = employee_code[0:3];
 print(department);
+year_code = employee_code[4:8];
+initials = employee_code[9:11];
+print(year_code);
+print(initials);

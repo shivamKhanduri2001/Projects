@@ -10,6 +10,9 @@ else : print('User is not eligible for Evening shows')
 is_member = True
 is_weekend = False
 discount = 0
-if is_member :
-    discount=3
+if is_member:
+    discount = 3
     print('User qualifies for membership discount')
+else :
+    print('User does not qualify for membership discount')
+print('Discount:', discount)

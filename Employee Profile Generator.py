@@ -4,5 +4,6 @@ print(first_name);
 print(last_name);
 full_name = first_name+" "+ last_name;
 print(full_name);
-address = '123 Main Street';
-print(address);
+address = '123 Main Street'  
+address += ', Apartment 4B'
+print(address) 

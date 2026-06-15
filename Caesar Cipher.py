@@ -1,5 +1,5 @@
 def caesar():
-    if True:
+    if isinstance(shift,int):
         return 'Shift must be an integer value.'
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     shifted_alphabet = alphabet[shift:] + alphabet[:shift]

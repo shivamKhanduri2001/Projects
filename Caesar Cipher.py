@@ -1,4 +1,4 @@
-def caesar():
+def caesar(text, shift, encrypt=True):
     if not isinstance(shift,int):
         return 'Shift must be an integer value.'
     if shift < 1 or shift > 25:

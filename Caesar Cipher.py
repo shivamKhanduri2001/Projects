@@ -16,7 +16,7 @@ def encrypt(text, shift):
 def decrypt(text, shift):
     return caesar(text, shift, encrypt=False)
     
-encrypted_text = caesar('Shivam', 3)
+encrypted_text = encrypt('Shivam', 3)
 print(encrypted_text)
 
 
